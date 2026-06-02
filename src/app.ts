@@ -7,7 +7,7 @@ import parkingRoutes from "./routes/ParkingRout";
 import reservationRoutes from "./routes/ReservationRout";
 
 const app = express();
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 3000;
 connectDB();
 
 app.use(express.json());
